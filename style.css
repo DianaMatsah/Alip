@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+a {
+    display: block;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    text-align: center; /* Center the button horizontally */
+    margin-top: 20px; /* Add some space above the button */
+}
+
+.container button {
+    background-color: blue; /* Blue background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding */
+    font-size: 16px; /* Font size */
+    border: none; /* Remove border */
+    cursor: pointer; /* Cursor pointer */
+    border-radius: 5px; /* Border radius */
+}
+
+/* CSS styles for hover effect */
+.container button:hover {
+    background-color: darkblue; /* Darker blue on hover */
+}
